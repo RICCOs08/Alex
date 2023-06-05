@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1a39cd6d297c6394b94a638ef697b897
+guid: ab2eed8c3dd924c4d81e78ea05a8a82c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alex_Walk_SpriteList_0
+      name: mapElements_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 15
-        width: 308
-        height: 515
+        x: 16
+        y: 1376
+        width: 2032
+        height: 656
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9508f72b5b8b4d4daf906d28bbf5cdb
-      internalID: -495105386
+      spriteID: b4afc98ba90558f4aa575cee55ea257f
+      internalID: -1701924758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alex_Walk_SpriteList_1
+      name: mapElements_1
       rect:
         serializedVersion: 2
-        x: 351
-        y: 110
-        width: 339
-        height: 484
+        x: 16
+        y: 864
+        width: 672
+        height: 496
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3871ea889a7bf324f81342f176cd3d5a
-      internalID: -347567486
+      spriteID: 1588b2bb132cf9542ad8bcccc2699e14
+      internalID: 158892202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alex_Walk_SpriteList_2
+      name: mapElements_7
       rect:
         serializedVersion: 2
-        x: 702
-        y: 78
-        width: 467
-        height: 516
+        x: 736
+        y: 880
+        width: 656
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d39d23f99fbc56d418520c5162311946
-      internalID: -1274189749
+      spriteID: 851121fd13fc9254db1a4b0bf6460d49
+      internalID: 170145927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alex_Walk_SpriteList_3
+      name: mapElements_35
       rect:
         serializedVersion: 2
-        x: 1182
-        y: 15
-        width: 292
-        height: 482
+        x: 80
+        y: 368
+        width: 592
+        height: 448
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2df7da4a63b7294db896a6092e8dd2d
-      internalID: 1718602030
+      spriteID: 987b81e471c2b4e4fa338ff33a180dc9
+      internalID: -996475534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alex_Walk_SpriteList_4
+      name: mapElements_36
       rect:
         serializedVersion: 2
-        x: 1486
-        y: 63
-        width: 275
-        height: 514
+        x: 65
+        y: 208
+        width: 1232
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,71 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79d7a1c8c7f90c044ab5a42a8102a180
-      internalID: -1485672549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Alex_Walk_SpriteList_5
-      rect:
-        serializedVersion: 2
-        x: 1774
-        y: 63
-        width: 340
-        height: 562
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97dcae90d86f35c42b4c306221e5aa75
-      internalID: -738819488
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Alex_Walk_SpriteList_6
-      rect:
-        serializedVersion: 2
-        x: 2126
-        y: 110
-        width: 403
-        height: 515
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2540719bdd991174e92bb6d9c8dfd34c
-      internalID: 2016322461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Alex_Walk_SpriteList_7
-      rect:
-        serializedVersion: 2
-        x: 2542
-        y: 15
-        width: 323
-        height: 515
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6343d104d2370e04fadec4804b64988d
-      internalID: 1897594060
+      spriteID: 42c997238e225ec469d2885bbefc5391
+      internalID: -584497607
       vertices: []
       indices: 
       edges: []
@@ -283,14 +220,43 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Alex_Walk_SpriteList_1: -347567486
-      Alex_Walk_SpriteList_6: 2016322461
-      Alex_Walk_SpriteList_0: -495105386
-      Alex_Walk_SpriteList_4: -1485672549
-      Alex_Walk_SpriteList_7: 1897594060
-      Alex_Walk_SpriteList_2: -1274189749
-      Alex_Walk_SpriteList_5: -738819488
-      Alex_Walk_SpriteList_3: 1718602030
+      mapElements_31: 144138002
+      mapElements_36: -584497607
+      mapElements_7: 170145927
+      mapElements_15: -1917069259
+      mapElements_5: -1679775234
+      mapElements_21: 1038403317
+      mapElements_14: 2136951288
+      mapElements_23: -1010499756
+      mapElements_20: -1134527675
+      mapElements_17: 393519814
+      mapElements_25: -2003527946
+      mapElements_19: 136836666
+      mapElements_35: -996475534
+      mapElements_26: 2035518113
+      mapElements_30: -2091346260
+      mapElements_33: 687895105
+      mapElements_1: 158892202
+      mapElements_3: 1858222600
+      mapElements_28: 622003070
+      mapElements_6: 1493075377
+      mapElements_10: -1421906784
+      mapElements_13: -607453871
+      mapElements_22: -1947138014
+      mapElements_29: 2089952017
+      mapElements_12: 454253910
+      mapElements_27: 1682141923
+      mapElements_4: -1985679757
+      mapElements_11: -92324459
+      mapElements_8: -59689250
+      mapElements_18: -1141324282
+      mapElements_9: 80966217
+      mapElements_0: -1701924758
+      mapElements_16: 1272018727
+      mapElements_24: -769249555
+      mapElements_2: 1365465385
+      mapElements_32: -140757269
+      mapElements_34: 105402634
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
