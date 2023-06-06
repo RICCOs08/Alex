@@ -1,17 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     private float _horizontal;
     private bool _isFacingRight = true;
-    //private bool _isFacingLeft = true;
+    
 
     [SerializeField] private float _walkSpeed;
     [SerializeField] private float _speed;
     [SerializeField] private float _jumpingPower;
 
+    [SerializeField] private Animator animator;
     [SerializeField] private Rigidbody2D _rb;
     [SerializeField] private Transform _groundCheck;
     [SerializeField] private LayerMask _groundLayer;
