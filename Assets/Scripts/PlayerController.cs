@@ -10,13 +10,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private float _jumpingPower;
 
-    [SerializeField] private Animator animator;
+    [SerializeField] private Animator _animator;
     [SerializeField] private Rigidbody2D _rb;
     [SerializeField] private Transform _groundCheck;
     [SerializeField] private LayerMask _groundLayer;
     void Start()
     {
-        
+        _animator = GetComponent<Animator>();
     }
     
     void Update()
