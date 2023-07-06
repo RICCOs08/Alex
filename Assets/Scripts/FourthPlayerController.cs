@@ -31,6 +31,9 @@ public class FourthPlayerController : MonoBehaviour
 
         _anim.SetBool("Run", horizontalInput != 0);
         _anim.SetBool("Grounded", Grounded);
+
+        //if (Input.GetKey(KeyCode.LeftShift))
+            //WalkDown();
     }
 
     private void Jump()
@@ -44,5 +47,9 @@ public class FourthPlayerController : MonoBehaviour
     {
         if(collision.gameObject.tag == "Ground")
             Grounded = true;
+    }
+    private void WalkDown()
+    {
+        _anim.SetBool("WalkDown", true);
     }
 }
