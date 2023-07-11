@@ -10,19 +10,31 @@ public class _PlayerController_ : MonoBehaviour
 
     private Rigidbody2D _rb;
     private SpriteRenderer _spriteRenderer;
+    private Animator _anim;
+
+    
+    private States State
+    {
+        get { return (States)_anim.GetInteger("State");  }
+        set { _anim.SetInteger("State", (int)value);  }
+    }
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        _anim = GetComponent<Animator>();
     }
 
     private void Update()
     {
+        if (_isGrounded)
+            State = States.AlexIdle;
+
         if (Input.GetButton("Horizontal"))
             Run();
 
-        if(_isGrounded && Input.GetButtonDown("Vertical"))
+        if(_isGrounded && Input.GetKeyDown(KeyCode.W))
             Jump();
     }
 
@@ -33,6 +45,9 @@ public class _PlayerController_ : MonoBehaviour
 
     private void Run()
     {
+        if (_isGrounded)
+            State = States.AlexRun;
+
         Vector3 dir = transform.right * Input.GetAxis("Horizontal");
 
         transform.position = Vector3.MoveTowards(transform.position, transform.position + dir, _speed * Time.deltaTime);
@@ -44,11 +59,23 @@ public class _PlayerController_ : MonoBehaviour
     {
         _rb.AddForce(transform.up * _jumpForce, ForceMode2D.Impulse);
         _rb.AddForce(transform.up * _jumpForce, ForceMode2D.Impulse);
+
+        
     }
 
     private void CheckGround()
     {
         Collider2D[] collider = Physics2D.OverlapCircleAll(transform.position, 0.8f);
         _isGrounded = collider.Length > 1;
+
+        if (!_isGrounded)
+            State = States.AlexJump;
+    }
+
+    public enum States
+    {
+        AlexIdle,
+        AlexRun,
+        AlexJump
     }
 }
