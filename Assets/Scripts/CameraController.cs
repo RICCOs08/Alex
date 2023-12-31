@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour
             _player = FindObjectOfType<_PlayerController_>().transform;
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         _pos = _player.position;
